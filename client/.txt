@@ -1,0 +1,5 @@
+1.mkdir 
+2.--save-dev 
+3.const express = require("express");
+
+const router = express.Router(); ---->Capital Router
