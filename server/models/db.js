@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 module.exports = mongoose.connect(
-  "mongodb://localhost:27017/todo",
+  "mongodb+srv://kavin:kavin123@cluster0.ewcnsyq.mongodb.net/?retryWrites=true&w=majority",
   {
     useUnifiedTopology: true,
     useNewUrlParser: true,
@@ -11,3 +11,5 @@ module.exports = mongoose.connect(
     console.log(`MongoDB connection suceeded`);
   }
 );
+
+// 2CQniovQzNFssKa9
